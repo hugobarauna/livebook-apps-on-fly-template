@@ -1,0 +1,22 @@
+<!-- livebook:{"app_settings":{"access_type":"public","output_type":"rich","show_source":true,"slug":"welcome"}} -->
+
+# Welcome
+
+```elixir
+Mix.install([
+  {:kino, "~> 0.10.0"}
+])
+```
+
+## Section
+
+This is the source of a deployed notebook.
+This notebook is static and simply renders the markdown content below.
+
+```elixir
+Kino.Markdown.new("""
+Welcome to **Livebook in Fly.io**!
+
+This is a deployed notebook.
+""")
+```
