@@ -1,0 +1,3 @@
+# This is here to ignore the fly.toml from the template, but feel free to delete this if you want to
+# add your fly.toml to your own Git repo
+fly.toml
